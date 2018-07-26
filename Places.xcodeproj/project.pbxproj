@@ -19,6 +19,8 @@
 		AC737E01210A2E610051D609 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC737E00210A2E610051D609 /* PlacesTableViewController.swift */; };
 		AC737E03210A2E790051D609 /* CreateNewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC737E02210A2E790051D609 /* CreateNewPlaceViewController.swift */; };
 		AC737E05210A32B50051D609 /* PlacesTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC737E04210A32B50051D609 /* PlacesTable.storyboard */; };
+		AC737E07210A3AE30051D609 /* PlacesTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC737E06210A3AE30051D609 /* PlacesTabBarViewController.swift */; };
+		AC737E09210A3BB20051D609 /* PlacesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC737E08210A3BB20051D609 /* PlacesPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		AC737E00210A2E610051D609 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
 		AC737E02210A2E790051D609 /* CreateNewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPlaceViewController.swift; sourceTree = "<group>"; };
 		AC737E04210A32B50051D609 /* PlacesTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesTable.storyboard; sourceTree = "<group>"; };
+		AC737E06210A3AE30051D609 /* PlacesTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTabBarViewController.swift; sourceTree = "<group>"; };
+		AC737E08210A3BB20051D609 /* PlacesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				9DC8C28B210A1DAE00A4B391 /* AppDelegate.swift */,
+				AC737E08210A3BB20051D609 /* PlacesPresenter.swift */,
 				9DC8C2A7210A1F5000A4B391 /* View Controllers */,
 				9DC8C29D210A1DB500A4B391 /* Resources */,
 			);
@@ -105,6 +110,7 @@
 				AC737DFE210A2E2C0051D609 /* VisitedPlacesViewController.swift */,
 				AC737E00210A2E610051D609 /* PlacesTableViewController.swift */,
 				AC737E02210A2E790051D609 /* CreateNewPlaceViewController.swift */,
+				AC737E06210A3AE30051D609 /* PlacesTabBarViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -199,9 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC737DFA210A2A4F0051D609 /* Place.swift in Sources */,
+				AC737E09210A3BB20051D609 /* PlacesPresenter.swift in Sources */,
 				AC737DFC210A2AF00051D609 /* PlaceController.swift in Sources */,
 				9DC8C28C210A1DAE00A4B391 /* AppDelegate.swift in Sources */,
 				9DC8C2AD210A1F9F00A4B391 /* MapViewController.swift in Sources */,
+				AC737E07210A3AE30051D609 /* PlacesTabBarViewController.swift in Sources */,
 				AC737DFF210A2E2C0051D609 /* VisitedPlacesViewController.swift in Sources */,
 				AC737E03210A2E790051D609 /* CreateNewPlaceViewController.swift in Sources */,
 				AC737E01210A2E610051D609 /* PlacesTableViewController.swift in Sources */,
